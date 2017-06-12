@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    h1 {
+
+      text-align: center;
+      font-weight: bold;
+    }	
+    .center {text-align: center;
+    }
+    .right {text-align: right;
+	}
+    p {
+      margin: 15px;
+      text-align: center;
+
+    }
+    .select-me {
+    	color: black;
+    }
+    .select-me:hover {
+    	color: red;
+    }
+    .menu {
+    	opacity: 0;
+    	transition: all 2s; 
+    	
+    }
+    .select-me:hover + .menu {
+    	opacity: 1;
+    }
+
+    </style>
+  <body>
+    <div class="center">
+    <img src="pics/kurt.jpg">
+    </div>
+     
+    <h1>
+    Voytek Perkowski
+    </h1>
+    <p class="select-me">Welcome to my web site</p>
+
+    <p class="menu">
+    	Hello, thanks for visiting my site...
+    </p>
+
+
+  </body>
+</html>
